@@ -9,7 +9,7 @@ public interface IFacade {
 
     List<Employee> getAllEmployees();
     Employee getHighestPaid();
-    Double getAverageSalery();
+    Employee getAverageSalery();
     List<Employee> getAllBelowAverage();
     Department getWithMostEmployees();
     Department getMostExpensiveSalarySum();
